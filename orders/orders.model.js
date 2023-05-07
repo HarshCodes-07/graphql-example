@@ -27,6 +27,10 @@ function getAllOrders() {
     return orders
 }
 
+function getOrderItems() {
+    return orders.items
+}
+
 module.exports = {
     getAllOrders
 }
